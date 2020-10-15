@@ -1,0 +1,230 @@
+// @import "../common/_variables.scss";
+// @import "../common/_base.scss";
+// @import "../common/_font.scss";
+// @import "../common/_button.scss";
+// @import "../common/_block.scss";
+// @import "../common/_pagination.scss";
+// @import "../common/_pic.scss";
+// @import "../common/_form.scss";
+// @import "../common/_book.scss";
+
+
+// @include main_title($keyGreen);
+// @include sub_title($keyWhite);
+// @include text($textBlack);
+// .btn_1{
+//     @include btn(20px,green);
+// }
+// .block_b{
+//     @include block(300px, b);
+//     .btn{
+//         @include btn(20px,green);
+//     }
+// }
+
+// .pag_rect{
+//     @include pagination_rect(20px, green);
+// }
+// .pag_circle{
+//     @include pagination_circle(yellow);
+// }
+// .pag_pic{
+//     @include pagination_pic(20px, 30px);
+// }
+// .pagination_vertical{
+//     @include pagination_vertical(20px, white);
+// }
+// .pic1{
+//     @include pic(20px);
+// }
+// .book{
+//     @include book;
+// }
+// .form{
+//     @include form(200px, 50px);
+// }
+＊{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(5, 69, 165, 0.562);
+}
+.blogFirstPort{
+    display: block;
+}
+
+.blogFirstPort{
+    display: flex;
+    background-color: hsla(0, 0%, 0%, 0.8);
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto 30px auto;
+    padding: 20px 20px 20px 0;
+    .blogTitle{
+        display: flex;
+        flex-direction: row;
+        .blogYellowsq{
+            display: block;
+            width: 35px;
+            height: 40px;
+            background-color: yellow;
+        }
+        h2{
+            margin: 0 0 0 10px;
+            color: white;
+        }
+    
+    }
+    .blogWelcomeText{
+            display: inline-block;
+            width: 50%;
+            padding-left: 40px;
+            // color: red;
+            p{
+                margin: 0;
+                color: white;
+            }
+    }
+    .blogPostBtnPos{
+        margin: 0;
+        .blogPostBtn{
+            display: inline-block;
+            text-decoration: none;
+            border: 5px solid #1BB8CE;
+            border-radius: 30px;
+            background-color: #1BB8CE;
+            color: #ffffff;
+            padding: 0 36px;
+            font-family: "ROBOTO", serif;
+            font-size: 24px;
+        }
+    }
+}
+.blogPostSection{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto 30px auto;
+    background-color: #fff;
+    border: 2px solid white;
+    border-radius: 6px;
+    overflow: hidden;
+    .blogPostLeft{
+        display: block;
+        width: 300px;
+        height: 200px;
+        // border: 1px solid blue;
+
+        >img{
+            display: block;
+            width: auto;
+            height: auto;
+        }
+    }
+    .blogPostMiddle{
+        display: block;
+        padding: 0 20px;
+        h4{
+            text-align: left;
+            // border: 1px solid orange;
+            margin-top: 20px;
+            margin-bottom: 5px;
+
+        }
+        .blogMemInfo{
+            display: flex;
+            vertical-align: bottom !important;                
+            padding: 0;
+            .blogMemName{
+                margin: 0;
+                >p{
+                margin: 0;
+                
+                }
+
+            }
+            .blogMemDate{
+            vertical-align: bottom;                
+             
+                > p{
+                    margin: 0;
+                    
+                }   
+            }
+            >div{
+              
+                margin: 0 10px;
+                >p{
+                    margin: 0;
+                }
+
+            }
+            .blogMemImg{
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                overflow: hidden;
+
+
+                
+                }
+                > img{
+                    width: auto;
+                    height: auto;
+
+                }
+                
+            }
+        }
+        .blogPostPreview{
+            display: block;
+            width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border: 3px solid grey;
+            border-radius: 6px;
+            padding: 5px;
+            overflow: hidden;
+        }
+    }
+    .blogPostRight{
+        display: block;
+        width: 30%;
+        .blogIcon{
+            display: flex;
+            width: 100%;
+            margin: 10px auto;
+            flex-direction: row;
+            text-align: right;
+            .fa-heart{
+                font-size: 24px;
+                margin-left: 10px;
+                margin-right: 5px;
+                // color: red;
+            }
+            .fa-exclamation-circle{
+                display: block;
+                font-size: 24px;
+                margin-left: 5px;
+                color: yellow;
+
+            }
+        }
+            .blogMoreBtn{
+                display: inline-block;
+                text-decoration: none;
+                border: 5px solid #1BB8CE;
+                border-radius: 30px;
+                background-color: #ffffff;
+                color: #1BB8CE;
+                padding: 0 36px;
+                font-family: "ROBOTO", serif;
+                font-size: 24px;
+                text-align: left;
+                vertical-align: bottom;
+        }
+    }

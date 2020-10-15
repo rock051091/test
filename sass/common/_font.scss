@@ -1,0 +1,97 @@
+/*title公版*/ 
+/*缺白色區塊content_margin*/
+@mixin main_title($color){
+        .title{
+            font-size: $titleFz;
+            font-family: $en;
+            font-weight: 700;
+            color: $color;
+        } 
+        .title::before{
+            width: $title_margin - 10px;
+            height: $titleFz * 1.5;
+        }
+
+}
+
+// @mixin main_title($bg_color){
+//         .title{
+//             font-size: $titleFz;
+//             font-family: $en;
+//             font-weight: $fw_Bold;
+//         } 
+//         .title::before{
+//             width: $title_margin - 10px;
+//             height: $titleFz * 1.5;
+//         }
+//         @if $bg_color == white{
+//             .title{
+//                 color: $keyBlack;
+//             }
+//         }@else if $bg_color == black{
+//             .title{
+//                 color: $keyWhite;
+//             }        
+//         }@else if $bg_color == green{
+//             .title{
+//                 color: $keyGreen;
+//             }     
+//         }
+// }
+
+@mixin sub_title($color){
+        .sub_title{
+            font-size: $subtitleFz;
+            font-family: $en;
+            font-weight: 400;
+            color: $color;
+        } 
+}
+
+
+// @mixin sub_title($bg_color){
+//     .sub_title{
+//         font-size: $subtitleFz;
+//         font-family: $en;
+//         font-weight: $fw_Regular;
+//     } 
+    
+//     @if $bg_color == white{
+//         .sub_title{
+//             color: $keyBlack;
+//         } 
+//     }@else if $bg_color == black{
+//         .sub_title{
+//             color: $keyWhite;
+//         } 
+//     }
+// }
+
+
+@mixin text($color){
+        .text{
+            font-size: $fontbase;
+            font-family: $en;
+            font-weight: 300;
+            color: $color;
+            line-height: 1.5 * $fontbase;
+        } 
+}
+
+// @mixin text($bg_color){
+//     .text{
+//         font-size: $fontbase;
+//         font-family: $en;
+//         font-weight: 300;
+//         line-height: 1.5 * $fontbase;
+//     } 
+//     @if $bg_color == white{
+//         .text{
+//             color: $textBlack;
+//         } 
+//     }@else if $bg_color == black{
+//         .text{
+//             color: $keyWhite;
+//         } 
+//     }
+// }

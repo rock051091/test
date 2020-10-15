@@ -1,0 +1,217 @@
+@charset "UTF-8";
+＊ {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(5, 69, 165, 0.562);
+}
+
+.blogFirstPort {
+  display: block;
+}
+
+.blogFirstPort {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto 30px auto;
+  padding: 20px 20px 20px 0;
+}
+
+.blogFirstPort .blogTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.blogFirstPort .blogTitle .blogYellowsq {
+  display: block;
+  width: 35px;
+  height: 40px;
+  background-color: yellow;
+}
+
+.blogFirstPort .blogTitle h2 {
+  margin: 0 0 0 10px;
+  color: white;
+}
+
+.blogFirstPort .blogWelcomeText {
+  display: inline-block;
+  width: 50%;
+  padding-left: 40px;
+}
+
+.blogFirstPort .blogWelcomeText p {
+  margin: 0;
+  color: white;
+}
+
+.blogFirstPort .blogPostBtnPos {
+  margin: 0;
+}
+
+.blogFirstPort .blogPostBtnPos .blogPostBtn {
+  display: inline-block;
+  text-decoration: none;
+  border: 5px solid #1BB8CE;
+  border-radius: 30px;
+  background-color: #1BB8CE;
+  color: #ffffff;
+  padding: 0 36px;
+  font-family: "ROBOTO", serif;
+  font-size: 24px;
+}
+
+.blogPostSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto 30px auto;
+  background-color: #fff;
+  border: 2px solid white;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.blogPostSection .blogPostLeft {
+  display: block;
+  width: 300px;
+  height: 200px;
+}
+
+.blogPostSection .blogPostLeft > img {
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+.blogPostSection .blogPostMiddle {
+  display: block;
+  padding: 0 20px;
+}
+
+.blogPostSection .blogPostMiddle h4 {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.blogPostSection .blogPostMiddle .blogMemInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  vertical-align: bottom !important;
+  padding: 0;
+}
+
+.blogPostSection .blogPostMiddle .blogMemInfo .blogMemName {
+  margin: 0;
+}
+
+.blogPostSection .blogPostMiddle .blogMemInfo .blogMemName > p {
+  margin: 0;
+}
+
+.blogPostSection .blogPostMiddle .blogMemInfo .blogMemDate {
+  vertical-align: bottom;
+}
+
+.blogPostSection .blogPostMiddle .blogMemInfo .blogMemDate > p {
+  margin: 0;
+}
+
+.blogPostSection .blogPostMiddle .blogMemInfo > div {
+  margin: 0 10px;
+}
+
+.blogPostSection .blogPostMiddle .blogMemInfo > div > p {
+  margin: 0;
+}
+
+.blogPostSection .blogPostMiddle .blogMemInfo .blogMemImg {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.blogPostSection .blogPostMiddle .blogMemInfo > img {
+  width: auto;
+  height: auto;
+}
+
+.blogPostSection .blogPostPreview {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border: 3px solid grey;
+  border-radius: 6px;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.blogPostRight {
+  display: block;
+  width: 30%;
+}
+
+.blogPostRight .blogIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 10px auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: right;
+}
+
+.blogPostRight .blogIcon .fa-heart {
+  font-size: 24px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.blogPostRight .blogIcon .fa-exclamation-circle {
+  display: block;
+  font-size: 24px;
+  margin-left: 5px;
+  color: yellow;
+}
+
+.blogPostRight .blogMoreBtn {
+  display: inline-block;
+  text-decoration: none;
+  border: 5px solid #1BB8CE;
+  border-radius: 30px;
+  background-color: #ffffff;
+  color: #1BB8CE;
+  padding: 0 36px;
+  font-family: "ROBOTO", serif;
+  font-size: 24px;
+  text-align: left;
+  vertical-align: bottom;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,32 @@
+
+/*缺圓心距離按鈕左邊界30px，並與按鈕垂直置中對齊，小圓形內要再設置一個37px的圓形範圍，限制丟入的PGN檔範圍，按鈕左右padding66px。*/
+
+@mixin btn($width, $color){
+        width: $width;
+        display: block;
+        border: 5px solid $keyGreen;
+        border-radius: 100px; 
+        padding: 0 36px;
+        font-family: $en; 
+        font-size: 1.5 * $fontbase;
+        font-weight: $fw_Bold;
+        background-color: $keyGreen;
+        height: $button_height;
+        line-height: $button_height - 10px;
+        text-align: center;
+        @if $color == green{
+            color: $keyWhite;
+            background-color: $keyGreen;
+            > .btn_icon{
+            width: 42px;
+            height: 42px;
+            border-radius: 999rem ;
+            }
+        }@else if $color == white{
+            color: $keyGreen;
+            background-color: $keyWhite;
+            > .btn_icon{
+            background-color: $keyGreen;
+            }
+        }
+}

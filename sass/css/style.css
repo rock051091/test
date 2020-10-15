@@ -1,0 +1,263 @@
+@charset "UTF-8";
+/*顏色*/
+/*白底字*/
+/*內文白底*/
+/*字體*/
+/*字體*/
+/*h3大標*/
+/*白色區塊margin*/
+/*h4大標*/
+/*按鈕*/
+body {
+  color: #ffffff;
+  background-color: #000;
+  margin: auto;
+}
+
+body .container {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  font-size: 0;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/*title公版*/
+/*缺白色區塊content_margin*/
+/*缺圓心距離按鈕左邊界30px，並與按鈕垂直置中對齊，小圓形內要再設置一個37px的圓形範圍，限制丟入的PGN檔範圍，按鈕左右padding66px。*/
+.title {
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #1BB8CE;
+}
+
+.title::before {
+  width: 40px;
+  height: 54px;
+}
+
+.sub_title {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.text {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #444444;
+  line-height: 24px;
+}
+
+.btn_1 {
+  width: 20px;
+  display: block;
+  border: 5px solid #1BB8CE;
+  border-radius: 100px;
+  padding: 0 36px;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: #1BB8CE;
+  height: 60px;
+  line-height: 50px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #1BB8CE;
+}
+
+.btn_1 > .btn_icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 999rem;
+}
+
+.block_b {
+  width: 300px;
+  background: #ffffff;
+  border-radius: 6px;
+  -webkit-box-shadow: black 2px 2px;
+          box-shadow: black 2px 2px;
+}
+
+.block_b > .title_b {
+  color: #1BB8CE;
+  margin-bottom: 20px;
+}
+
+.block_b > .block_content_b {
+  margin: 20px;
+}
+
+.block_b > img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.block_b .btn {
+  width: 20px;
+  display: block;
+  border: 5px solid #1BB8CE;
+  border-radius: 100px;
+  padding: 0 36px;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: #1BB8CE;
+  height: 60px;
+  line-height: 50px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #1BB8CE;
+}
+
+.block_b .btn > .btn_icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 999rem;
+}
+
+.pag_rect {
+  width: 20px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  border: 2px solid #1BB8CE;
+  border-radius: 6px;
+  -webkit-box-shadow: black 2px 2px;
+          box-shadow: black 2px 2px;
+  color: #333333;
+  background-color: #1BB8CE;
+  color: #ffffff;
+}
+
+.pag_circle {
+  width: 80px;
+  height: 80px;
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  border: 2px solid #1BB8CE;
+  border-radius: 50%;
+  -webkit-box-shadow: black 2px 2px;
+          box-shadow: black 2px 2px;
+  color: #333333;
+  border: 2px solid #FBE108;
+  background-color: #FBE108;
+}
+
+.pag_pic {
+  width: 20px;
+  height: 30px;
+  border-radius: 6px;
+  opacity: .7;
+  -webkit-box-shadow: black 2px 2px;
+          box-shadow: black 2px 2px;
+  position: relative;
+}
+
+.pag_pic > .pic_yellow {
+  background-color: #FBE108;
+  height: 30px;
+  position: absolute;
+  left: 0;
+  width: 10%;
+  max-width: 10px;
+}
+
+.pagination_vertical {
+  width: 20px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  border: 2px solid #1BB8CE;
+  -webkit-box-shadow: black 2px 2px;
+          box-shadow: black 2px 2px;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+.pic1 {
+  width: 20px;
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.book {
+  width: 360px;
+  height: 500px;
+  background-color: #333333;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  -webkit-box-shadow: black 2px 2px;
+          box-shadow: black 2px 2px;
+}
+
+.book > img {
+  width: 120px;
+  height: 120px;
+  border-radius: 6px;
+}
+
+.book > .name {
+  font-size: 36px;
+  color: #FBE108;
+}
+
+.book > .book_left {
+  color: #1BB8CE;
+}
+
+.book > .book_right {
+  color: #ffffff;
+}
+
+.form {
+  color: #000000;
+  opacity: .8;
+}
+
+.form > label {
+  font-size: 20px;
+  font-weight: 400;
+  color: #1BB8CE;
+}
+
+.form > input {
+  font-size: 20px;
+  font-weight: 400;
+  color: #333333;
+  border-radius: 6px;
+  padding: 0 10px;
+  width: 200px;
+  height: 40px;
+}
+
+.form > select {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.form > textarea {
+  border-radius: 6px;
+  padding: 10px;
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  color: #444444;
+}
+/*# sourceMappingURL=style.css.map */
